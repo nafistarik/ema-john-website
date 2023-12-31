@@ -1,0 +1,29 @@
+.one-product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-right:10px;
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+}
+.image-part{
+    width: 30%;
+    margin-right: 12%;
+    text-align: center;
+}
+.image-part img{
+    width: 100%;
+}
+.detail-part{
+    width: 50%;
+    text-align:justify;
+}
+.product-button{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 2px darkred solid;
+    border-radius: 5px;
+}
+.product-button:hover{
+    cursor: pointer;
+}
